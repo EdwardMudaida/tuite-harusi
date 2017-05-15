@@ -1,3 +1,25 @@
 .jumbotron {
-    background-image: url(../assets/img/tuitecover.jpg);
+    background-color: black;
+}
+
+.jumbotron .name h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 45pt;
+    color: white;
+    weight: bolder;
+}
+
+.jumbotron .name h2 {
+    font-family: 'Alex Brush', cursive;
+    padding-left: 5px;
+    display: inline;
+    font-size: 20pt;
+    color: white;
+}
+
+.jumbotron .slogan h3 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 28pt;
+    color: white;
+    padding: 30px;
 }

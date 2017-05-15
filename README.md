@@ -2,7 +2,7 @@
 A wedding project built while working on a team of 3. Built using HTML, CSS, Bootstrap, JavaScript and jQuery.
 
 ## Contributors
-- Kevin Ahere
+- [Kevin Ahere](https://github.com/kevaher)
 - Silvia Musangi
 - Edward Mudaida
 

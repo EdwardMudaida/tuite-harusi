@@ -1,6 +1,7 @@
 body {
     font-family: 'Alex Brush', cursive
     font-size: 18px;
+    text-align: center;
 }
 
 .jumbotron {
@@ -46,4 +47,9 @@ body {
 
 .container-fluid {
     padding: 0;
+}
+
+#template-box img{
+    width: 500px;
+    height: 350px;
 }

@@ -3,8 +3,8 @@ A wedding project built while working on a team of 3. Built using HTML, CSS, Boo
 
 ## Contributors
 - [Kevin Ahere](https://github.com/kevaher)
-- Silvia Musangi
-- Edward Mudaida
+- [Silvia Musangi](https://github.com/musangisilvia)
+- [Edward Mudaida](https://github.com/EdwardMudaida)
 
 ## Specifications
 

@@ -2,6 +2,7 @@ body {
 	background: url(../img/bg.jpeg)  center;
 	font-size: 18px;
 	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 #coupleNames input[type=text] {
@@ -9,7 +10,7 @@ body {
 }
 
 .container img {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 textarea {

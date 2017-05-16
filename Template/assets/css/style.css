@@ -52,10 +52,6 @@ input[type=text] {
    color:    white;
 }
 
-.btn-default {
-	width: 150px;
-}
-
 .alert {
 	width: 400px;
 	margin: auto;
@@ -64,4 +60,17 @@ input[type=text] {
 
 #confirm {
 	display: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #01b4c0;
+    border-color: #01b4c0;
+    width: 150px;
+    border-radius: 18px;
+}
+
+.btn-primary:hover {
+	background-color: #01b4c0;
+    border-color: #01b4c0;
 }

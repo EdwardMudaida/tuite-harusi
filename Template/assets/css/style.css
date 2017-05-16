@@ -1,3 +1,47 @@
 body {
 	background: url(../img/bg.jpeg)  center;
+	font-size: 18px;
+	text-align: center;
+}
+
+#coupleNames input[type=text] {
+	width: 340px;
+}
+
+.container img {
+	margin-bottom: 50px;
+}
+
+textarea {
+	width: 682px;
+	height: 130px;
+	background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: transparent; 
+    color: white;
+}
+
+input[type=text] {
+	background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: transparent; 
+    color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
 }

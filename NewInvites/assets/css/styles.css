@@ -1,15 +1,15 @@
 body {
-    background-image: url(../img/newcover.jpg);
+    background: url(../img/bg.jpeg) center;
     background-size: cover;
 }
 
 .header h1 {
     font-size: 80pt;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Raleway', sans-serif;
     color: white;
 }
 
-.fa {
+.invite .header .fa {
     color: white;
     float: right;
     padding: 15px;
@@ -57,7 +57,7 @@ body {
 
 .carousel h3 {
     color: black;
-    padding: 100px;
+    padding: 120px;
     font-size: 40pt;
 }
 
@@ -75,13 +75,14 @@ body {
 }
 
 footer {
+    text-align: center;
     padding-top: 40px;
     color: white;
     height: 230px;
 }
 
 footer p {
-    margin-top: 15px;
+    margin-top: auto;
 }
 
 .fa:hover {

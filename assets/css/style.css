@@ -54,6 +54,10 @@ body {
 }
 
 footer {
+    padding-top: 20px;
     background-color: black;
     color: white;
+}
+i{
+  padding: 8px;
 }

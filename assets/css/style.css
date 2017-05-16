@@ -3,6 +3,17 @@ body {
     text-align: center;
 }
 
+.modal-header{
+  background-color: black;
+  color: white;
+  text-align: centre;
+  font-size: 30px;
+}
+
+.modal-footer{
+  background-color: #f9f9f9;
+}
+
 .jumbotron {
     background-color: black;
 }

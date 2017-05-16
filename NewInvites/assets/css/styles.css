@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/newcover.jpg);
+    background-size: cover;
+}
+
+.header h1 {
+    font-size: 80pt;
+    font-family: 'Alex Brush', cursive;
+    color: white;
+}
+
+.fa {
+    color: white;
+    float: right;
+    padding: 15px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 30px;
+    font-size: 24pt;
+}
+
+#newInvite, #savedInvite {
+    margin-right: 30px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-color: Transparent;
+    font-family: 'Alex Brush', cursive;
+}
+
+#newInvite:hover, #savedInvite:hover {
+    background-color: black;
+    color: white;
+}
+
+.description-carousel {
+    text-align: center;
+    background-color: white;
+    margin: 60px;
+    box-shadow: 0px 1px 0px 1px solid grey;
+    font-family: 'Alex Brush', cursive;
+    border-radius: 8px;
+}
+
+.description-carousel h3 {
+    font-size: 30pt;
+}
+
+.description-carousel p {
+    font-size: 26pt;
+}
+
+.carousel img {
+    display: center;
+    color: black;
+}

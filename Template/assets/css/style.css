@@ -14,7 +14,7 @@ body {
 }
 
 .container img {
-	margin-bottom: 30px;
+	margin-bottom: px;
 }
 
 textarea {
@@ -73,4 +73,8 @@ input[type=text] {
 .btn-primary:hover {
 	background-color: #01b4c0;
     border-color: #01b4c0;
+}
+
+h1 {
+	font-family: 'Rokkitt', serif;
 }

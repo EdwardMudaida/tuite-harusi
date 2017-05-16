@@ -18,15 +18,16 @@ body {
 .buttons {
     text-align: center;
     padding: 30px;
-    font-size: 24pt;
+    font-size: 28pt;
 }
 
 #newInvite, #savedInvite {
+    color: white;
     margin-right: 30px;
     background-color: Transparent;
     background-repeat: no-repeat;
     border-color: Transparent;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 #newInvite:hover, #savedInvite:hover {
@@ -37,9 +38,9 @@ body {
 .description-carousel {
     text-align: center;
     background-color: white;
-    margin: 60px;
+    margin: 30px;
     box-shadow: 0px 1px 0px 1px solid grey;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Petit Formal Script', cursive;
     border-radius: 8px;
 }
 
@@ -51,7 +52,7 @@ body {
 }
 
 .carousel img {
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .carousel h3 {
@@ -71,4 +72,23 @@ body {
 .carousel img {
     display: center;
     color: black;
+}
+
+footer {
+    padding-top: 40px;
+    color: white;
+    height: 230px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+.fa:hover {
+    color: #37c6f5;
+    cursor: pointer;
+}
+
+i {
+    padding: 8px;
 }

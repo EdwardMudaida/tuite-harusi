@@ -9,6 +9,10 @@ body {
 	width: 340px;
 }
 
+#dateTime input[type=text] {
+	width: 225px;
+}
+
 .container img {
 	margin-bottom: 30px;
 }
@@ -27,6 +31,7 @@ input[type=text] {
     background-color: rgba(0, 0, 0, 0.3);
     border-color: transparent; 
     color: white;
+    height: 60px;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -45,4 +50,8 @@ input[type=text] {
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    white;
+}
+
+.btn-default {
+	width: 150px;
 }

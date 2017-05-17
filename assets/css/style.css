@@ -10,14 +10,14 @@ body {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   height: 350px;
+   height: 550px;
 }
 
 .jumbotron .name h1 {
   font-size: 20px;
   color: white;
   float: left;
-  weight: bolder;
+  font-weight: bolder;
   display: inline-block;
   padding-left: 5px;
   margin-top: -10px;
@@ -66,6 +66,10 @@ body {
   height: 350px;
 }
 
+.tagline {
+  margin-top: 90px;
+}
+
 footer {
   padding-top: 40px;
   background-color: black;
@@ -86,12 +90,71 @@ i {
   padding: 8px;
 }
 
-.modal-header, h4, .close {
-     background-color: #37c6f5;
-     color:white !important;
-     text-align: center;
-     font-size: 30px;
- }
- .modal-footer {
-     background-color: #f9f9f9;
- }
+.btn-info {
+  border-radius: 26px;
+  width: 150px;
+  height: 50px;
+}
+
+.col-sm-4 img {
+  width: 300px;
+  height: 300px;
+}
+
+.col-sm-8 h2 {
+  margin-top: 100px;
+}
+
+#easy {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.number {
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.email {
+  color: #37c6f5;
+}
+
+.email:hover {
+  color: #1e6c86;
+}

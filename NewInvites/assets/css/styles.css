@@ -32,7 +32,6 @@ body {
 
 #newInvite:hover, #savedInvite:hover {
     background-color: black;
-    color: white;
 }
 
 .description-carousel {
@@ -59,10 +58,6 @@ body {
     color: black;
     padding: 120px;
     font-size: 40pt;
-}
-
-.description-carousel h3 {
-    font-size: 30pt;
 }
 
 .description-carousel p {

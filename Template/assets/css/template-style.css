@@ -1,0 +1,97 @@
+body {
+    background-image: url(../img/bnw.jpg);
+}
+
+.header h1 {
+    font-size: 60pt;
+    font-family: 'Raleway', cursive;
+    color: white;
+}
+
+.header i {
+    float: right;
+    color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.templateTitle h3 {
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+    margin: 20px;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.btn-inverse {
+    margin-right: 20px;
+}
+
+#reset {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20pt;
+    display: inline;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+#next {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20pt;
+    display: inline;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+#save {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20pt;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+#reset:hover, #save:hover, #next:hover {
+    background-color: white;
+    color: black;
+}
+
+.details {
+    display: none;
+    margin: 200px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.details .names {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.details .date {
+    border-bottom: 1px solid black;
+    padding: 60px;
+}
+
+.details .venue {
+    border-bottom: 1px solid black;
+    padding: 60px;
+}
+
+.details .time {
+    border-bottom: 1px solid black;
+    padding: 60px;
+}
+
+.details .message {
+    border-bottom: 1px solid black;
+    padding: 60px;
+}

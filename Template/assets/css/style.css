@@ -183,35 +183,21 @@ h1 {
 }
 
 .details p {
-    font-size: 20pt;
+    font-size: 30pt;
+}
+
+#Bride, #brideGroom {
+    font-size: 24pt;
 }
 
 #viewMap {
     background-color: transparent;
     border-color: transparent;
+    padding: 35px;
+    font-size: 20pt;
 }
 
 #viewMap:hover {
     background-color: white;
     color: black;
-}
-
-footer {
-    text-align: center;
-    padding-top: 40px;
-    color: white;
-    height: 230px;
-}
-
-footer p {
-    margin-top: auto;
-}
-
-.fa:hover {
-    color: #37c6f5;
-    cursor: pointer;
-}
-
-i {
-    padding: 8px;
 }

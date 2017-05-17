@@ -18,6 +18,7 @@ $(document).ready(function() {
             $("#date").append(date);
             $("#time").append(time);
             $("#venue").append(venue);
+            $("#message").append(message)
         });
     });
 });

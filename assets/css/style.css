@@ -48,7 +48,7 @@ body {
 }
 
 .jumbotron .slogan h3 {
-  font-size: 28pt;
+  font-size: 60px;
   color: white;
   padding: 40px;
 }
@@ -74,11 +74,15 @@ footer {
   padding-top: 40px;
   background-color: black;
   color: white;
-  height: 230px;
+  height: 300px;
 }
 
 footer p {
-  margin-top: 15px;
+  margin-top: 40px;
+}
+
+footer h2 {
+  font-family: serif;
 }
 
 .fa:hover {
@@ -94,6 +98,8 @@ i {
   border-radius: 26px;
   width: 150px;
   height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .col-sm-4 img {
@@ -115,6 +121,7 @@ i {
 .number {
   font-size: 55px;
   font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .slideanim {visibility:hidden;}

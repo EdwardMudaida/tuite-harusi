@@ -10,6 +10,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Petit+Formal+Script|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="assets/js/jquery-3.2.1.js"></script>
 	<script src="assets/js/scripts.js"></script>
@@ -39,6 +40,55 @@
 		</form>
 		<div class="alert alert-success" id="confirm">
 			<p>Your details have been successfully submited!</p>
+		</div>
+	</div>
+	<div class="container-fluid template">
+		<div class="jumbotron">
+
+			<i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-user fa-2x" aria-hidden="true"></i>
+			<center>
+				<h1><span id="bride" contenteditable="true"></span> and <span id="groom" contenteditable="true"></span></h1></center>
+		</div>
+		<div class="container-fluid inviteBody">
+			<div class="container buttons">
+				<button type="button" class="btn-inverse" id="next">Next</button>
+				<button type="button" class="btn-inverse" id="save">Save</button>
+				<button type="button" class="btn-inverse" id="reset">Reset</button>
+			</div>
+			<div class="templateTitle">
+				<h3>Vintage</h3>
+			</div>
+			<div class="container details">
+				<p>Together with their families</p>
+				<div class="names">
+					<span id="Bride" contenteditable="true"></span>
+					<p>And</p>
+					<span id="brideGroom" contenteditable="true"></span>
+				</div>
+				<p>Joyfully invite you to celebrate their wedding</p>
+				<div id="dateTime" contenteditable="true">
+					<p>On: <span id="date"></p>
+				<p>At: <span id="time"></span></p>
+				</div>
+				<div id="venue" contenteditable="true">
+					<p>Service Venue: </p>
+					<p>Reception Venue: </p>
+					<button type="button" class="btn-inverse" id="viewMap">View Map</button>
+				</div>
+				<div id="message" contenteditable="true">
+					<p>[Your Text Here]</p>
+				</div>
+				<div class="rsvp">
+					<p>Kindly RSVP by:<br> <input type="Date"></p>
+					<p>Kindly Confirm your attendance</p>
+					<form action="">
+						<input type="radio" name="response" value="yes">Yes<br>
+						<input type="radio" name="response" value="no">No<br>
+						<input type="radio" name="response" value="undecided">Undecided
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

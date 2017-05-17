@@ -11,9 +11,13 @@ $(document).ready(function() {
             var time = $("#Time").val();
             var venue = $("#Venue").val();
             var message = $("#message").val();
-            window.open("../Template/template.html");
-            $("#bride").append('<span class="bride" contenteditable="true">' + bride + '</span>');
+            $("#bride").append(bride);
             $("#groom").append(groom);
+            $("#Bride").append(bride);
+            $("#brideGroom").append(groom);
+            $("#date").append(date);
+            $("#time").append(time);
+            $("#venue").append(venue);
         });
     });
 });

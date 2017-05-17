@@ -1,14 +1,21 @@
 body {
-    background-image: url(../img/bnw.jpg);
+    background-image: url(../img/invitebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header h1 {
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    padding: 30px;
     font-size: 60pt;
-    font-family: 'Raleway', cursive;
     color: white;
+    font-family: 'IM Fell English SC', serif;
 }
 
-.header i {
+.jumbotron i {
     float: right;
     color: white;
     margin-top: 30px;
@@ -16,47 +23,47 @@ body {
 }
 
 .templateTitle h3 {
+    font-family: 'Petit Formal Script', serif;
     text-align: center;
-    font-size: 24pt;
+    font-size: 40pt;
+    padding: 30px;
     color: white;
-    margin: 20px;
-    font-family: 'Petit Formal Script', cursive;
 }
 
 .btn-inverse {
-    margin-right: 20px;
+    margin-left: 200px;
 }
 
 #reset {
-    background-color: black;
-    border: 1px solid white;
+    background-color: white;
+    border-color: transparent;
     border-radius: 20px;
-    font-size: 20pt;
+    font-size: 28pt;
     display: inline;
     padding: 10px;
     margin-top: 20px;
-    color: white;
+    color: black;
 }
 
 #next {
-    background-color: black;
-    border: 1px solid white;
+    background-color: white;
+    border-color: transparent;
     border-radius: 20px;
-    font-size: 20pt;
+    font-size: 28pt;
     display: inline;
     padding: 10px;
     margin-top: 20px;
-    color: white;
+    color: black;
 }
 
 #save {
-    background-color: black;
-    border: 1px solid white;
+    background-color: white;
+    border-color: transparent;
     border-radius: 20px;
-    font-size: 20pt;
+    font-size: 28pt;
     padding: 10px;
     margin-top: 20px;
-    color: white;
+    color: black;
 }
 
 #reset:hover, #save:hover, #next:hover {
@@ -65,33 +72,50 @@ body {
 }
 
 .details {
-    display: none;
-    margin: 200px;
+    background-image: url(../img/vintage.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English SC', serif;
+    display: block;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.details p {
+    font-size: 20pt;
+}
+
+#viewMap {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#viewMap:hover {
     background-color: white;
-    border-radius: 3px;
+    color: black;
 }
 
-.details .names {
-    border-bottom: 1px solid black;
-    padding: 20px;
+footer {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    height: 230px;
 }
 
-.details .date {
-    border-bottom: 1px solid black;
-    padding: 60px;
+footer p {
+    margin-top: auto;
 }
 
-.details .venue {
-    border-bottom: 1px solid black;
-    padding: 60px;
+.fa:hover {
+    color: #37c6f5;
+    cursor: pointer;
 }
 
-.details .time {
-    border-bottom: 1px solid black;
-    padding: 60px;
-}
-
-.details .message {
-    border-bottom: 1px solid black;
-    padding: 60px;
+i {
+    padding: 8px;
 }

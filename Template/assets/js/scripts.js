@@ -15,15 +15,20 @@ $(document).ready(function() {
             $("#bride").append(bride);
             $("#groom").append(groom);
             $("#Bride").append(bride);
-            $("#brideGroom").append(groom);
             $("#date").append(date);
             $("#time").append(time);
             $("#venue").append(venue);
-            $("#message").append(message)
+            $("#brideGroom").append(groom);
+            $("#messageIn").append(message)
             // hide form and display template
             $("#coupleInfo").hide();
             $(".container h1").hide();
             $(".template").fadeIn();
         });
+    });
+    $("button#next").click(function() {
+        $(".share").fadeIn();
+        $(".template").hide();
+        $(".container").hide();
     });
 });

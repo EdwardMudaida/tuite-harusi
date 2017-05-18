@@ -106,8 +106,8 @@ h1 {
 }
 
 .jumbotron h3 {
-    padding: 30px;
-    font-size: 60pt;
+    padding: 10px;
+    font-size: 50pt;
     color: white;
     font-family: 'IM Fell English SC', serif;
 }
@@ -132,39 +132,39 @@ h1 {
 }
 
 #reset {
+    font-family: 'Petit Formal Script', serif;
     background-color: white;
-    border-color: transparent;
-    border-radius: 20px;
-    font-size: 20pt;
+    border-radius: 10px;
+    font-size: 16pt;
     display: inline;
-    padding: 40px;
-    margin-top: 20px;
+    padding: 30px;
+    margin-top: 10px;
     color: black;
 }
 
 #next {
+    font-family: 'Petit Formal Script', serif;
     background-color: white;
-    border-color: transparent;
-    border-radius: 20px;
-    font-size: 20pt;
+    border-radius: 10px;
+    font-size: 16pt;
     display: inline;
-    padding: 40px;
-    margin-top: 20px;
+    padding: 30px;
+    margin-top: 10px;
     color: black;
 }
 
 #save {
+    font-family: 'Petit Formal Script', serif;
     background-color: white;
-    border-color: transparent;
-    border-radius: 20px;
-    font-size: 20pt;
-    padding: 40px;
-    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16pt;
+    padding: 30px;
+    margin-top: 10px;
     color: black;
 }
 
 #reset:hover, #save:hover, #next:hover {
-    background-color: white;
+    background-color: #Ffffcc;
     color: black;
 }
 
@@ -188,7 +188,7 @@ h1 {
 }
 
 #Bride, #brideGroom {
-    font-size: 24pt;
+    font-size: 28pt;
 }
 
 #viewMap {
@@ -201,4 +201,29 @@ h1 {
 #viewMap:hover {
     background-color: white;
     color: black;
+}
+
+
+/* styling for the share page */
+
+.share {
+    display: none;
+}
+
+.titleShare h1 {
+    color: white;
+    padding: 50px;
+    font-family: 'Petit Formal Script', serif;
+    font-size: 80px;
+}
+
+.emails h4, h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway' cursive;
+}
+
+.fa-hand-o-left {
+    padding-top: 60px;
+    color: white;
 }

@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('#newInvite').click(function() {
-        window.open('../Template/details.html');
-    });
-});
+//$(document).ready(function() {
+//$('#newInvite').click(function() {
+//    window.open('../Template/details.html')
+//});
+//});

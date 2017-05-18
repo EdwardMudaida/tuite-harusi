@@ -12,6 +12,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Petit+Formal+Script|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 	<script src="assets/js/jquery-3.2.1.js"></script>
 	<script src="assets/js/scripts.js"></script>
 </head>
@@ -19,7 +21,7 @@
 <body>
 	<div class="container">
 		<img src="assets/img/logo.png">
-		<h1>Please fill in your details</h1>
+		<h1 class="bounce">Please fill in your details</h1>
 		<form id="coupleInfo">
 			<div class="form-group" id="coupleNames">
 				<input type="text" id="brideName" placeholder="Bride's Name" required="required">
@@ -54,12 +56,14 @@
 			<div class="container buttons">
 				<button type="button" class="btn-inverse" id="next">Next</button>
 				<button type="button" class="btn-inverse" id="save">Save</button>
-				<button type="button" class="btn-inverse" id="reset">Reset</button>
-			</div>
-			<div class="templateTitle">
-				<h1><span id="bride" contenteditable="true"></span> and <span id="groom" contenteditable="true"></span></h1>
+				<button type="button" class="btn-inverse" id="reset">Change Template</button>
 			</div>
 			<div class="container details">
+
+				<div class="templateTitle">
+					<h1><span id="bride" contenteditable="true"></span> and <span id="groom" contenteditable="true"></span>Yeey!</h1>
+				</div>
+
 				<p>Together with their families</p>
 				<div class="names">
 					<span id="Bride" contenteditable="true"></span>
@@ -68,14 +72,14 @@
 				</div>
 				<p>Joyfully invite you to celebrate their wedding</p>
 				<div id="dateTime" contenteditable="true">
-					<p>On: <span id="date"></p>
-				<p>At: <span id="time"></span></p>
+					<p>On: <span id="date"></span></p>
+					<p>At: <span id="time"></span></p>
 				</div>
 				<div contenteditable="true">
 					<p>Venue: <span id="venue"></span> </p>
 				</div>
 				<div contenteditable="true">
-					<p><span id="message"></span></p>
+					<p><span id="messageIn"></span></p>
 				</div>
 				<div class="rsvp">
 					<p>Kindly RSVP by:<br> <input type="Date"></p>
@@ -88,6 +92,22 @@
 					</form>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="container-fluid share">
+		<div class="titleShare">
+			<center>
+				<h1>Tuite Harusi</h1></center>
+		</div>
+		<div class="col-md-4 templatePreview">
+			<i class="fa fa-hand-o-left fa-5x" aria-hidden="true"></i>
+		</div>
+		<div class="col-md-8 emails">
+			<h4>Invite URL: <span id="urlInvite" contenteditable="true"></span></h4>
+			<h3>Enter Your Friends' Emails!</h3>
+			<form>
+				<textarea placeholder="Email" type="email"></textarea>
+			</form>
 		</div>
 	</div>
 </body>

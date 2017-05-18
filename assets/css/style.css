@@ -81,17 +81,13 @@ footer p {
   margin-top: 40px;
 }
 
-footer h2 {
-  font-family: serif;
-}
-
 .fa:hover {
   color: #37c6f5;
   cursor: pointer;
 }
 
 i {
-  padding: 8px;
+  padding: 16px;
 }
 
 .btn-info {

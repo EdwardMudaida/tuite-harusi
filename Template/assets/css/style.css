@@ -95,6 +95,7 @@ h1 {
 /* css styling for the template*/
 
 .template {
+    display: none;
     background-image: url(../img/invitebg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +105,7 @@ h1 {
     background-color: transparent;
 }
 
-.jumbotron h1 {
+.jumbotron h3 {
     padding: 30px;
     font-size: 60pt;
     color: white;
@@ -118,7 +119,7 @@ h1 {
     margin-right: 10px;
 }
 
-.templateTitle h3 {
+.templateTitle h1 {
     font-family: 'Petit Formal Script', serif;
     text-align: center;
     font-size: 40pt;

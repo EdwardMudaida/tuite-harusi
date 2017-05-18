@@ -23,6 +23,7 @@
 <body>
 	<div class="container">
 		<img src="assets/img/logo.png">
+			<a href="#" onclick="signOut();">Sign out</a>
 		<h1 class="bounce">Please fill in your details</h1>
 		<form id="coupleInfo">
 			<div class="form-group" id="coupleNames">
@@ -113,7 +114,6 @@
 			</form>
 		</div>
 	</div>
-	<a href="#" onclick="signOut();">Sign out</a>
 <script>
   function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();

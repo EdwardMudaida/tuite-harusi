@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Tuite Harusi | Home</title>
+  <meta name="google-signin-client_id" content="7532768529-kp825vfv8qdq3reo75qhshlhudq09ech.apps.googleusercontent.com">
   <link rel="icon" type="image/png" href="assets/img/icon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -11,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery-3.2.1.js"></script>
@@ -29,6 +31,7 @@
         <div class="col-md-offset-10 modals">
           <h2>Log in</h2>
           <h2>Sign-Up</h2>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
         </div>
       </div>
       <div class="row slogan">
@@ -115,5 +118,14 @@
       <p>&copy;2017 Tuite Harusi</p>
     </footer>
   </div>
+  <script>
+    function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+  </script>
 </body>
 </html>

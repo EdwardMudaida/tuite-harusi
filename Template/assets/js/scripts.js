@@ -11,6 +11,7 @@ $(document).ready(function() {
             var time = $("#Time").val();
             var venue = $("#Venue").val();
             var message = $("#message").val();
+            var customurl = $("#myCustomURL").val();
             // variables are appended into form
             $("#bride").append(bride);
             $("#groom").append(groom);
@@ -19,7 +20,8 @@ $(document).ready(function() {
             $("#time").append(time);
             $("#venue").append(venue);
             $("#brideGroom").append(groom);
-            $("#messageIn").append(message)
+            $("#messageIn").append(message);
+            $("#urlInvite").append(customurl);
             // hide form and display template
             $("#coupleInfo").hide();
             $(".container h1").hide();
@@ -38,5 +40,9 @@ $(document).ready(function() {
     });
     $(".container img").click(function() {
         window.open("../index.html", "_self");
+    });
+    $("#shareInvite").click(function() {
+        $("#sent").show();
+        $("#sent").fadeOut(6000);
     });
 });

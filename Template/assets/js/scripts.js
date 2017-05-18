@@ -4,13 +4,14 @@ $(document).ready(function() {
         $("#submitInfo").click(function() {
             $("#confirm").show();
             $("#confirm").fadeOut(5000);
-            // declare an array that will store the user input
+            // input values are put into variables
             var bride = $("#brideName").val();
             var groom = $("#groomName").val();
             var date = $("#Date").val();
             var time = $("#Time").val();
             var venue = $("#Venue").val();
             var message = $("#message").val();
+            // variables are appended into form
             $("#bride").append(bride);
             $("#groom").append(groom);
             $("#Bride").append(bride);
@@ -19,6 +20,10 @@ $(document).ready(function() {
             $("#time").append(time);
             $("#venue").append(venue);
             $("#message").append(message)
+            // hide form and display template
+            $("#coupleInfo").hide();
+            $(".container h1").hide();
+            $(".template").fadeIn();
         });
     });
 });

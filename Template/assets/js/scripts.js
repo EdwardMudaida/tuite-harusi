@@ -31,4 +31,9 @@ $(document).ready(function() {
         $(".template").hide();
         $(".container").hide();
     });
+    $("i.fa-hand-o-left").click(function() {
+        $(".share").fadeOut();
+        $(".container").fadeOut();
+        $(".template").fadeIn();
+    });
 });

@@ -45,7 +45,4 @@ $(document).ready(function() {
         $("#sent").show();
         $("#sent").fadeOut(6000);
     });
-    $("g-signin2").onSignIn(function() {
-        window.open("../Template/details.html");
-    })
 });

@@ -36,4 +36,7 @@ $(document).ready(function() {
         $(".container").fadeOut();
         $(".template").fadeIn();
     });
+    $(".container img").click(function() {
+        window.open("../index.html", "_self");
+    });
 });

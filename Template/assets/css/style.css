@@ -220,12 +220,20 @@ h1 {
 }
 
 .fa-hand-o-left {
-    padding-top: 100px;
+    padding-top: 40px;
     color: white;
     box-shadow: 1px solid black;
 }
 
 .fa-hand-o-left:hover {
     cursor: pointer;
-    position: absolute;
+    animation-name: 'shake';
+}
+
+#shareInvite {
+    margin-top: 20px;
+}
+
+#sent {
+    display: none;
 }

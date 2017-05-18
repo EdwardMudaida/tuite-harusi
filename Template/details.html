@@ -36,7 +36,7 @@
 				<textarea id="message" placeholder="Message"></textarea>
 			</div>
 			<div class="form-group" id="customURL">
-				<input type="text" id="customURL" placeholder="Wedding Web Address">
+				<input type="text" id="myCustomURL" placeholder="Wedding Web Address">
 			</div>
 			<button type="submit" class="btn btn-primary" id="submitInfo">Submit</button>
 		</form>
@@ -55,7 +55,7 @@
 		</div>
 		<div class="container-fluid inviteBody">
 			<div class="buttons">
-				<button type="button" class="btn-inverse" id="next">Next</button>
+				<button type="button" class="btn btn-primary" id="next">Next</button>
 				<button type="button" class="btn-inverse" id="save">Save</button>
 				<button type="button" class="btn-inverse" id="reset">Change Template</button>
 			</div>
@@ -100,15 +100,21 @@
 			<center>
 				<h1>Tuite Harusi</h1></center>
 		</div>
-		<div class="col-md-4 templatePreview">
+		<div class="col-md-4 bounce">
 			<i class="fa fa-hand-o-left fa-5x" aria-hidden="true"></i>
 		</div>
 		<div class="col-md-8 emails">
-			<h4>Invite URL: <span id="urlInvite" contenteditable="true"></span></h4>
+			<h4>Invite URL: <span id="urlInvite"></span></h4>
 			<h3>Enter Your Friends' Emails!</h3>
 			<form>
-				<textarea placeholder="Email" type="email"></textarea>
+				<input id="emails" placeholder="Email Your Friend" type="email" multiple>
 			</form>
+
+			<button type="submit" class="btn btn-primary" id="shareInvite">Share Invite</button>
+
+			<div class="alert alert-success" id="sent">
+				<p>Your Friends have been successfully Invited!</p>
+			</div>
 		</div>
 	</div>
 </body>

@@ -233,3 +233,7 @@ input {
 button:focus {
   outline:0 !important;
 }
+
+.abc {
+  font-family: 'Permanent Marker', cursive;
+}

@@ -5,7 +5,7 @@ body {
 }
 
 .jumbotron {
-  background: url(../img/bg.jpeg) no-repeat center center fixed;
+  background: url(https://static.pexels.com/photos/128945/pexels-photo-128945.jpeg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -172,7 +172,7 @@ i {
 }
 
 .subscribe {
-  background: url(../img/subscribe.jpeg) no-repeat center center fixed;
+  background: url(https://static.pexels.com/photos/94876/pexels-photo-94876.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

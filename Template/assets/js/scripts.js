@@ -23,9 +23,9 @@ $(document).ready(function() {
             $("#messageIn").append(message);
             $("#urlInvite").append(customurl);
             // hide form and display template
-            $("#coupleInfo").hide();
-            $(".container h1").hide();
-            $(".template").fadeIn();
+            $("#coupleInfo").hide(1000);
+            $(".container").hide(1000);
+            $(".template").fadeIn(1000);
         });
     });
     $("button#next").click(function() {

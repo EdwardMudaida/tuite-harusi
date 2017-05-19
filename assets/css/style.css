@@ -237,3 +237,7 @@ button:focus {
 .abc {
   font-family: 'Permanent Marker', cursive;
 }
+
+footer a {
+  color: white;
+}

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Tuite Harusi | Details</title>
 	<link rel="icon" type="image/png" href="assets/img/logo.png">
-	  <meta name="google-signin-client_id" content="7532768529-kp825vfv8qdq3reo75qhshlhudq09ech.apps.googleusercontent.com">
+	<meta name="google-signin-client_id" content="7532768529-kp825vfv8qdq3reo75qhshlhudq09ech.apps.googleusercontent.com">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
-	  <script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<script src="assets/js/jquery-3.2.1.js"></script>
 	<script src="assets/js/scripts.js"></script>
 </head>
@@ -35,7 +35,7 @@
 
 	<div class="container">
 		<img src="assets/img/logo.png">
-			<a href="#" onclick="signOut();">Sign out</a>
+		<a href="#" onclick="signOut();">Sign out</a>
 		<h1 class="bounce">Please fill in your details</h1>
 		<form id="coupleInfo">
 			<div class="form-group" id="coupleNames">
@@ -77,7 +77,7 @@
 			<div class="details">
 
 				<div class="templateTitle">
-					<h1><span id="bride" contenteditable="true"></span> and <span id="groom" contenteditable="true"></span>Yeey!</h1>
+					<h1><span id="bride" contenteditable="true"></span> and <span id="groom" contenteditable="true"></span></h1>
 				</div>
 
 				<p>Together with their families</p>
@@ -124,19 +124,18 @@
 			<form>
 				<input id="emails" placeholder="Email Your Friend" type="email" multiple>
 			</form>
-			<div class="fb-share-button" data-href="https://kevahere.github.io/tuite-harusi/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank"
-				 href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkevahere.github.io%2Ftuite-harusi%2F&amp;src=sdkpreparse">Share</a></div>
+			<div class="fb-share-button" data-href="https://kevahere.github.io/tuite-harusi/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkevahere.github.io%2Ftuite-harusi%2F&amp;src=sdkpreparse">Share</a></div>
 
 		</div>
 	</div>
-<script>
-  function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-</script>
+	<script>
+		function signOut() {
+			var auth2 = gapi.auth2.getAuthInstance();
+			auth2.signOut().then(function() {
+				console.log('User signed out.');
+			});
+		}
+	</script>
 </body>
 
 </html>
